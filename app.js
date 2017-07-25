@@ -46,7 +46,7 @@
 				items.sort(sortScores);
 				popHighscoreList();
 			} 
-		}, 6000);
+		}, 10000);
 	}
 
 	function bonk(e) {
