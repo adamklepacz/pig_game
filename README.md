@@ -1,5 +1,6 @@
 # pig_game
-Pig Game
+Pig Game</br>
 Simple Pig Game based on JS30 challange task nr. 30.</br>
-I have added highscore table.</br>
-I'm planning to add game levels.
+Added highscore table - stored in localstorage.</br>
+
+Copyrights: Adam Klepacz 2017
