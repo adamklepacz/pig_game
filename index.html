@@ -2,32 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
   <title>Catch a PIG!</title>
   <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <h1>Catch a PIG!</h1>
- 	<p class="score-p">Score:<span class="score">0</span></p>
-	<a class="show-higscores" href="#openModalInstr"><button class="instructions">Instructions!</button></a>
-  <button class="start-game">Start!</button>
-  <!-- modal section -->
-  <a class="show-higscores" href="#openModal"><button>Highscores</button></a>
- 
+  <header>
+    <h1>Catch a PIG!</h1>
+ 	  <p>Score:<span id="score">0</span></p>
+	  <a href="#openModalInstr"><button>Instructions!</button></a>
+    <button id="start-game">Start!</button>
+    <!-- modal section -->
+    <a href="#openModal"><button>Highscores</button></a>
+  </header>
 
 	<div id="openModal" class="modalDialog">
-			<div>	
+			<div>
 					<a href="#close" title="Close" class="close">X</a>
 					<h2>The best PLAYERS!</h2>
 					<p>Your score can be here!</p>
 
-					<ol class="players">
+					<ol id="players">
 						<li>Your Score Here</li>
 					</ol>
 			</div>
 	</div>
-	
+
 	<div id="openModalInstr" class="modalDialog">
 			<div>	<a href="#close" title="Close" class="close">X</a>
 
@@ -40,7 +41,7 @@
 			</div>
 	</div>
 
-  <div class="game">
+  <main>
     <div class="hole hole1">
       <div class="mole"></div>
     </div>
@@ -59,8 +60,8 @@
     <div class="hole hole6">
       <div class="mole"></div>
     </div>
-  </div>
-  
+  </main>
+
 <!-- javascript -->
 <script src="app.js"></script>
 </body>
